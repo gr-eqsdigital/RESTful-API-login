@@ -2,8 +2,10 @@ package main
 
 //https://www.youtube.com/watch?v=ma7rUS_vW9M&ab_channel=CodingwithRobby
 
-//to use compiler daemon, to auto build and ruin our app, everytime we change something, in terminal;
-// compiledaemon --command="./RESTful-API-login"
+//To create a mod » go mod init
+
+//To use compiler run in Bash;
+//compiledaemon --command="./RESTful-API-login"
 
 import (
 	"example/RESTful-API-login/controllers"

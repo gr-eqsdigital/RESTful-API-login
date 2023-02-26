@@ -159,7 +159,7 @@ func Update(c *gin.Context) {
 		return
 	}
 
-	// Check user information
+	// Check credentials
 
 	tokenString, err := c.Cookie("Authorization")
 	if err != nil {
